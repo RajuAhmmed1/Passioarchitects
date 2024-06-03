@@ -1,0 +1,93 @@
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+
+
+}
+
+
+/*================ Tablet desktop :768px.==================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #about{
+
+	margin-left: 0;
+}.sh img{
+    width:60%;
+    height:160px;
+}
+}
+
+
+/*================== small mobile :320px. ===================*/
+
+@media (max-width: 767px) {
+ img#change-image {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+      
+}
+.sh img{
+    width:60%;
+    height:160px;
+}
+.sh1 p{
+    width:100%;
+}
+
+#title p{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 10px;
+	float: right;
+	margin-top:220px;
+	font-weight: bold;
+
+}
+#about{
+
+	margin-left: 0;
+}
+
+  
+}
+
+
+/* ======================Large Mobile :480px.================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+    
+   
+   img#change-image {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+      
+}
+#title p{
+	color: white;
+	font-size: 24px;
+	letter-spacing: 14px;
+	float: right;
+	margin-top:230px;
+	padding-right: 50px;
+	font-weight: bold;
+
+}
+
+#about{
+
+	margin-left: 0;
+}.sh img{
+    width:60%;
+    height:160px;
+}
+.sh1 p{
+    width:100%;
+}
+  
+}
+

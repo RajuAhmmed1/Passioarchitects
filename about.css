@@ -1,0 +1,59 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+.container{
+background-color: white;
+	background-size: cover;
+	height: 100%;
+	margin:0 auto;
+	width:100%;
+}
+
+html, body {
+        height: 100%;
+        margin: 0 auto;
+        background-color:white;
+        width: 100%;
+    }
+    .test{
+
+    	height: 100%;
+    	padding-top:40px;
+    	padding-bottom: 40px; 
+    
+    }
+.main{
+	
+
+}
+#about:hover{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#about{
+
+	margin-left: 80px;
+}
+p{
+	color:black;
+}
+
+
+
+@media (min-width: 480px) {
+
+#person1,#person2,#person3{
+	padding-top: 20px;
+}
+
+}
+
+@media all and (orientation:portrait) {
+#person1,#person2,#person3{
+	padding-top: 20px;
+}
+}

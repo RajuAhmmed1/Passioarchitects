@@ -1,0 +1,128 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.active{
+	color: red;
+}
+.container{
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	height: 100%;
+	margin:0 auto;
+	width: 100%;
+  background-position: center center;
+    background-attachment: fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+
+
+}
+
+html, body {
+        height: 100%;
+        margin: 0 auto;
+        background-color:gray;
+        width: 100%;
+    }
+    .test{
+
+    	height: 100%;
+   
+    	
+    }
+
+
+.main{
+	padding-right:15;
+	margin-right:-15px;
+	height: 100%;
+	margin-left: -15px;
+
+}
+#title p{
+	color: white;
+	font-size: 24px;
+	letter-spacing: 14px;
+	float: right;
+	margin-top:350px;
+	margin-right: 50px;
+	font-weight: bold;
+
+}
+
+.main h4{
+	color: white;
+}
+#title p{
+	cursor: pointer;
+	text-decoration: none;
+
+}
+#title p:hover{
+	color:red;
+}
+
+
+/* Portrait medium device and smaller */
+@media (max-width: 767px) {
+
+#title p{
+	margin-left: 40px;
+	font-size: 18px;
+	margin-bottom: 100px;
+text-align:center;
+
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+	#title p{
+margin-left: 55px;
+
+	margin-bottom: 150px;
+    text-align:center;
+
+}
+
+}
+
+@media all and (orientation:portrait) {
+#title p{
+	margin-left: 100px;
+	font-size: 18px;
+	margin-bottom: 100px;
+text-align:center;
+
+}
+}
+
+.footer{
+	
+	padding-left: 50px;
+	padding-top: 100px;
+	overflow: hidden;
+
+}
+.footer a{
+	text-decoration: none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Strip the ul of padding and list styling*/
